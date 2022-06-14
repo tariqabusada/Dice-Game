@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #042f4b;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4.5rem;
+    color: #4ecca3;
+    text-align: center;
+}
+header p {
+    text-align: center;
+}
+p {
+    font-size: 2rem;
+    color: #32b388;
+    font-family: "Indie Flower", cursive;
+}
+img {
+    width: 100%;
+    height: 100%;
+   
+}
+.image{
+    width: 140px;
+    height: 140px;
+   
+}
+main{
+    display: flex;
+width: 100%;
+justify-content: space-between;
+}
+.section{
+background-color: #042f4b;
+width: 30%;
+min-height: 500px;
+
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.container-bottom{
+    margin: 10px 0;
+
+}
+.container-bottom button{
+    padding: 10px;
+    background-color: #60cca8;
+    color: #fff;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-family: "Lobster", cursive;
+}
+.butn:hover {
+    background: #232931;
+    text-decoration: none;
+    cursor: pointer;
+}
+.score-continar{
+    display: flex;
+align-items: center;
+}
+.score-continar p{
+    font-size: 20px;
+
+}
+.number{
+    margin-left: 10px;
+    color: #fff;
+}
+.player-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    margin-bottom: 20px;
+}

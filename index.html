@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+     <header> 
+         <h1 id="heading"> Let's Play</h1>
+         <p id="turn">
+             Tariq turn
+         </p>
+     </header>
+     <main> 
+         <section class="section player-info">
+             <p class="name"> Rami</p>
+             <div class="score-continar">
+                 <p>Total score: </p>
+                 <p class="number" id="p2TotalScore"> 0 </p>
+             </div>
+             <div class="score-continar">
+                <p>Curent score: </p>
+                <p class="number" id="p2CurentScore"> 0 </p>
+             </div>
+        </section>
+        <section class="section button-container">
+            <div class="image"> <img class="img1" src="assets/dice6.png" id="img"> </div>
+            <div class="btns-continar">
+                <div class="container-bottom">
+               <button type="button" class="butn"
+                  id="rollBtn">
+                   Roll the Dice
+               </button>
+           </div>
+           <div class="container-bottom">
+               <button type="button" class="butn"
+                   id="holdBtn">
+                   Hold
+               </button>
+           </div>
+           <div class="container-bottom">
+               <button type="button" class="butn"
+                  id="newBtn">
+                   New game
+               </button>
+           </div>
+            </div>
+           
+        </section>
+        <section class="section player-info">
+            <p class="name" > Tariq</p>
+            <div class="score-continar">
+                <p>Total score: </p>
+                <p class="number" id="p1TotalScore"> 0 </p>
+            </div>
+            <div class="score-continar">
+               <p>Curent score: </p>
+               <p class="number" id="p1CurentScore"> 0 </p>
+            </div>
+         </section>
+     </main>
+
+    <script src="./script.js"> </script>
+</body>
+</html>
